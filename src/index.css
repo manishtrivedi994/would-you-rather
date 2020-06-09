@@ -183,8 +183,8 @@ li {
 
 .login-form .form-control {
   background: #d42525 none repeat scroll 0 0;
-  border: 1px solid #d4d4d4;
   border-radius: 4px;
+  border: 1px solid #d4d4d4;
   font-size: 14px;
   height: 50px;
   line-height: 50px;
@@ -244,7 +244,7 @@ li {
 }
 
 .back a {
-  color: #444444;
+  color: #353434;
   font-size: 13px;
   text-decoration: none;
 }
@@ -259,7 +259,7 @@ li {
 }
 
 .chosen-answer {
-  background-color: #9ef1fe;
+  background-color: #9becf8;
   border: 2px solid #17a2b8;
   color: #17a2b8 !important;
   font-weight: bold;
@@ -302,7 +302,7 @@ li {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #5867dd;
+  background-color: #4254da;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }

@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import LoadingBar from "react-redux-loading";
 import {Redirect} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {handleGetUsers} from '../actions/users';
 import {handleLoginUser} from '../actions/auth';
-import LoadingBar from "react-redux-loading";
+
 
 class Login extends Component {
     state = {
@@ -50,8 +51,8 @@ class Login extends Component {
                     <div className="login-form">
                         <div className="main-div">
                             <div className="panel">
-                                <h2>Login</h2>
-                                <p>Please select a user to log in as.</p>
+                                <h3>Login</h3>
+                                <p>Select a user to log in as.</p>
                             </div>
                             <form id="Login" onSubmit={this.handleSubmit}>
                                 <div className="form-group">
